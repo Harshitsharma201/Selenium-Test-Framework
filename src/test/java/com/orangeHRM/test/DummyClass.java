@@ -12,6 +12,8 @@ public class DummyClass extends BaseClass{
 	@Test
 	public void dummyTest() {
 //		ExtentManager.startTest("Dummy class Test1");-- Already written in testng listner class
+		
+		//gittest
 	String title= getDriver().getTitle();
 	
 	assert title.equals("OrangeHRM"):"Test Failed: Title is not matching";
